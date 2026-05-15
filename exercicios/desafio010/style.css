@@ -1,0 +1,178 @@
+@font-face {font-family:'Droid' ;
+            src: url(fontes/idroid.otf)format('truetype');
+            font-weight: normal;
+            font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    
+}
+
+#principal{
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.223),inset 1px 1px 1px rgba(0, 0, 0, 0.178);
+   
+}
+
+header{
+    padding: 20px;
+    background-image: linear-gradient(to bottom,#2A8C4C,#22733F,#22733F,#1B5931,#113a1f);
+}
+    
+header > h1{
+    color: #cae9d7ed;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    letter-spacing: -3px;
+    font-weight: bolder;
+    padding-top: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.581);
+    
+}
+
+header > p{
+    
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+    color: #cae9d7ed;
+    font-weight: lighter;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.712);
+}
+
+#menu{
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    flex-wrap: wrap;
+    font-weight: bold;
+    padding-top: 20px;  
+
+}
+
+.mainmenu{
+    text-decoration: none;
+    color: #cae9d7ed;
+    display:block;
+}
+
+.mainmenu:hover{
+    background-color: #2A8C4C;
+}
+
+main{
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+
+#h2main{
+    font-family: 'Droid';
+    font-weight: lighter;
+    color: #134625;
+    padding-top: 18px;
+    padding-left:10px;
+}
+
+.paragrafo{
+    padding-left:10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-indent: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3main{
+    font-family: 'Droid';
+    font-weight: bold;
+    font-weight: normal;
+    color: #134625;
+    background-image: linear-gradient(to right,#3cd772, white 65%);  
+    padding: 2px;
+    padding-left:10px;
+    
+}
+
+img {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.link{
+    font-weight: bold;
+    color: #134625;
+    background-color: #52de83;
+    text-decoration: none;
+}
+
+.video-box {
+  background-color: #134625;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.video-box iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* ESSENCIAL */
+  border: none;
+  border-radius: 8px; 
+}
+
+
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #113a1f;
+    padding: 8px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+#partefinal{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7ED99E;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 10px;
+    padding-left: 33px;
+    margin: 0 auto;
+}
+
+#mylist{
+    columns: 2;
+    text-decoration: underline; 
+}
+
+#video {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+footer {
+    text-align: center;
+    color: #cae9d7ed;
+    background-color: #5cd384;
+    padding: 1px;
+}
